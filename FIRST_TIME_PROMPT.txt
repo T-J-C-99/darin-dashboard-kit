@@ -1,0 +1,13 @@
+I'm setting up an executive dashboard my son Tom built for me. I need to install some developer tools on my Mac before I can use it. Walk me through these installs one at a time, checking if each is already installed first:
+
+1. VS Code (code editor) -- download from code.visualstudio.com. If my Mac blocks it, right-click the app > Open > Open again.
+2. Node.js -- download the LTS installer from nodejs.org. After install, close and reopen Terminal.
+3. Claude Code (AI terminal tool) -- run: npm install -g @anthropic-ai/claude-code (if you see a permission error, try again with sudo in front). Then run `claude` to log in.
+4. Git -- type `git --version`. If Mac asks to install developer tools, click Install and wait.
+5. GitHub CLI -- download the .pkg installer from cli.github.com. Then run `gh auth login`, choose GitHub.com, HTTPS, Yes, and authorize in browser.
+6. Create my project -- run: gh repo create my-ops-dashboard --private --clone --template T-J-C-99/darin-dashboard-kit
+7. Open it -- run: code my-ops-dashboard
+
+After all 7 are done, tell me to open VS Code, open the terminal with Cmd+backtick, type `claude`, and say `run /wizard`.
+
+If anything fails, help me troubleshoot. If we get stuck, tell me to text my son Tom.
