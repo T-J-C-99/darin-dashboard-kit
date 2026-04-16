@@ -54,7 +54,7 @@ Present as a numbered action list:
 
 "3 things need your attention right now:
 1. [Priority X] has been carried 3 weeks -- done, escalate, or cut?
-2. [Sarah Kim] is blocked on [thing] -- your decision needed
+2. [Team member] is blocked on [thing] -- your decision needed
 3. [Commitment Y] is past deadline -- update or close?"
 
 If nothing is on fire: "Nothing urgent. Your dashboard is clean."

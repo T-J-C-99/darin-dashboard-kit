@@ -82,7 +82,7 @@ When updating JSONB columns (like team_members.cadence), read the current value 
 
 ## Timezone
 
-All date operations should use America/New_York (Darin's timezone). Before any date-sensitive query, consider running: SET timezone = 'America/New_York'; or using AT TIME ZONE. Neon runs in UTC by default.
+All date operations should use the user's local timezone. Before any date-sensitive query, consider running: SET timezone = 'America/New_York'; or using AT TIME ZONE. Adjust the timezone if the user is not in US Eastern. Neon runs in UTC by default.
 
 ## Escape hatch
 

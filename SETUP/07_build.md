@@ -47,7 +47,7 @@ Read `SETUP/SPEC.md` and execute SQL inserts for every piece of data the user pr
 7. **priorities** — insert current week priorities
 8. **team_members** — insert each person with full profile
 9. **morale_history** — insert current morale snapshot for each person
-10. **commitments** — insert open commitments between Darin and directs
+10. **commitments** — insert open commitments between the user and their directs
 11. **initiatives** — insert each initiative
 12. **okrs** — insert OKRs
 13. **decisions_pending** — insert decisions

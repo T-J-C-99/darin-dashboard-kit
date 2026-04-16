@@ -5,11 +5,11 @@
 > Step 8 of 8 complete. Setup is done. Your dashboard is configured with real data and no placeholders. Here's how it works from here:
 >
 > **Daily use** — just talk to me. Say things like:
-> - "Update claims SLA to 93.8"
+> - "Update [metric] to [value]"
 > - "Mark priority 3 as done"
-> - "Sarah is blocked on freeze window sign-off"
+> - "[Name] is blocked on [issue]"
 > - "Add a risk: vendor contract expires in 60 days"
-> - "Log a check-in with Mike — Valdosta on track, OT budget approved"
+> - "Log a check-in with [name] -- [what you discussed]"
 >
 > **Weekly planning (Mondays)** — say "Monday planning" and I'll walk you through:
 > - Review last week's priorities (what got done, what carries)

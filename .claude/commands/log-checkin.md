@@ -18,7 +18,7 @@ If team_members table is empty, say: "You haven't added any team members yet. Ru
 
 Then ask:
 1. How did it go? (notes -- free text)
-2. Any new commitments? (from Darin to them, or them to Darin)
+2. Any new commitments? (from you to them, or them to you)
 3. Quick morale read -- energy: high/med/low? confidence: high/med/low?
 4. Blocker status -- still blocked? newly blocked? or clear?
 

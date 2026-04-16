@@ -37,7 +37,7 @@ Claude walks you through everything from there -- who you are, what you want to 
 - Open VS Code with your project
 - Open terminal (Cmd+`)
 - Run `claude`
-- Talk to it naturally — "update claims SLA to 93.8" or "Monday planning" or "prep for 1:1 with Sarah"
+- Talk to it naturally: "update revenue MTD to 4.6M" or "Monday planning" or "prep for 1:1 with [name]"
 
 ## If something breaks
 

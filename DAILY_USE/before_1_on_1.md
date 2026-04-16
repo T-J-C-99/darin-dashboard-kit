@@ -5,7 +5,7 @@ Claude: when the user says "prep for 1:1 with [name]" or "prep [name]", pull up 
 ## What to show
 
 Query from DB:
-1. **Open commitments** — what Darin promised them, what they promised Darin, with due dates
+1. **Open commitments** — what you promised them, what they promised you, with due dates
 2. **Initiative status** — for each initiative this person owns, current progress vs pace
 3. **Morale trend** — last 4-6 weeks of energy + confidence
 4. **Latest check-in notes** — what was discussed last time, what was committed

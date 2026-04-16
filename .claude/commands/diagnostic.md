@@ -8,7 +8,7 @@ If a query returns unexpected results, show the user what happened in plain Engl
 
 ## Steps
 
-Run a health check and report results in plain English that Darin can screenshot and text to Tom.
+Run a health check and report results in plain English that the user can screenshot and send to their administrator.
 
 1. Check if DATABASE_URL is set in environment
 2. Try to connect to the database

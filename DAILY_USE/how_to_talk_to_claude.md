@@ -1,10 +1,10 @@
 # How to Talk to Claude
 
-Claude: if the user asks "what can I say to you" or "how does this work", share these examples.
+Claude: if the user asks "what can I say to you" or "how does this work", share these examples. Replace the placeholder names below with actual team member names from the database.
 
 ## Quick commands
 
-These are things you can say naturally. Claude understands intent — exact wording doesn't matter.
+These are things you can say naturally. Claude understands intent -- exact wording doesn't matter.
 
 ### Priorities
 - "Add a priority: finalize Q2 forecast"
@@ -13,42 +13,41 @@ These are things you can say naturally. Claude understands intent — exact word
 - "What are my priorities this week?"
 
 ### Metrics
-- "Update claims SLA to 93.8"
+- "Update attach rate to 48.5"
 - "Revenue MTD is now 4.6M"
 - "What's my loss ratio at?"
 
 ### Team
-- "Sarah's unblocked now"
-- "Mike needs a decision on the OT budget"
-- "Log a check-in with Jerome — claims audit is on track, discussed FPY improvement plan"
-- "Laura's energy is low this week"
-- "Update Dan's focus to board deck prep"
+- "[Name] is unblocked now"
+- "[Name] needs a decision on the budget"
+- "Log a check-in with [name] -- project is on track"
+- "[Name]'s energy is low this week"
+- "Update [name]'s focus to board deck prep"
 
 ### Commitments
-- "I promised Rick the forecast by Friday"
-- "Update Q2 margin commitment — we're at 14.3 now"
-- "VP Ops search: still at zero, but second firm is kicking off"
+- "I promised [CEO name] the forecast by Friday"
+- "Update Q2 margin commitment -- we're at 14.3 now"
 
 ### Risks
 - "Add a risk: vendor contract up in 60 days, no renewal terms yet"
-- "Retire the ERP cutover risk — we cleared the go/no-go"
+- "Retire the ERP cutover risk -- we cleared the go/no-go"
 
 ### Decisions
 - "I made the call on outsourcing: going hybrid"
-- "Add a decision: whether to renew the Midwest distributor"
+- "Add a decision: whether to renew the distributor agreement"
 
 ### Inbox (team submissions)
 - "Review inbox"
-- "Accept Mike's last submission"
-- "Discard that FYI from Dan"
+- "Accept [name]'s last submission"
+- "Discard that FYI from [name]"
 
 ### Initiatives
-- "Claims automation is now at 52%"
+- "[Initiative name] is now at 52%"
 - "Add an initiative: employee engagement survey, Q3, $0.1M"
 
 ### Planning
-- "Monday planning" — full weekly routine
-- "Prep for 1:1 with Sarah"
+- "Monday planning" -- full weekly routine
+- "Prep for 1:1 with [name]"
 - "What's on fire?"
 
 ### Meta

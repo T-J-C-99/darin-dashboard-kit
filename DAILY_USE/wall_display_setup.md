@@ -76,6 +76,6 @@ The dashboard is built for always-on use:
 - **Hard-reloads once per hour** as a safety net (via meta-refresh)
 - **30-day auth session** — you won't need to re-enter your password for a month
 
-## What to tell Darin
+## What to tell the user
 
 > "Your dashboard is now a wall display. It refreshes itself, recovers from network issues, and reloads hourly as a safety net. If the screen ever goes black, check that your Mac didn't go to sleep (System Settings > Displays). If the dashboard shows 'STALE' in red, check your WiFi."
