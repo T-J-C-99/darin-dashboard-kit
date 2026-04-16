@@ -1,47 +1,45 @@
 # Email to Dad
 
-Subject: Your ops dashboard -- ready when you are
+Subject: Built you an ops dashboard
 
 ---
 
-Hey Dad,
+Dad,
 
-I built you something. It's an executive operating dashboard -- think Bloomberg terminal for running Safe-Guard. Dark, dense, real-time. Three views:
+I built you an operating dashboard for Safe-Guard. Dark screen, dense layout, real-time. Think Bloomberg terminal for your job.
 
-- **Aviate** -- run the business. Your KPIs (attach rate, loss ratio, claims SLA, dealer NPS, policies in force), weekly priorities, what you owe David and the board, what's at risk.
-- **Navigate** -- plan and build. Your transformation portfolio, strategic initiatives, capital allocation, big decisions on your desk.
-- **Communicate** -- lead people. Your directs, their morale and blockers, 1:1 prep, and a way for your team to send you updates directly from their phones.
+3 views:
 
-Nothing on it is fake. Every number comes from what you tell it. If a section isn't set up yet, it shows blank -- not pretend data.
+**Aviate** -- your KPIs (attach rate, loss ratio, claims SLA, dealer NPS, policies in force), weekly priorities, what you owe David and the board, risk register.
 
-It takes about an hour to set up (pausable, you can split it across days). Once it's running, you talk to it in plain English: "update attach rate to 48.5" or "prep for 1:1 with Joe" or "Monday planning."
+**Navigate** -- transformation portfolio, capital allocation, initiative progress, decisions sitting on your desk.
 
-## What you need before starting
+**Communicate** -- your directs, their energy and blockers, 1:1 prep, and a way for them to send you updates from their phones.
 
-You need a few things installed on your Mac. Claude Desktop (which you already have) can walk you through all of them. Here are the direct download links in case you want to grab them first:
+Every number on it is real. If something isn't configured, it shows blank. No fake data.
 
-1. **VS Code** (code editor where you'll talk to Claude)
-   https://code.visualstudio.com/download -- click "Mac Universal", open the download, drag to Applications
+Takes about an hour to set up. You can pause and come back. Once it's running, you talk to it like this: "update attach rate to 48.5" or "Monday planning" or "prep for 1:1 with Joe."
 
-2. **Node.js** (runs the dashboard engine)
-   https://nodejs.org -- click the green "LTS" button, run the installer
+---
 
-3. **GitHub account** (stores your dashboard code privately)
-   https://github.com/signup -- you'll need an email and password. GitHub will ask you to set up two-factor authentication (use your phone's authenticator app or SMS).
+## Before you start, install these 4 things
 
-4. **Claude subscription** (you may already have this through Claude Desktop)
-   Make sure you're logged into claude.ai with an account that has a paid plan. Claude Code (the terminal version) uses the same account.
+Claude Desktop (which you have) can walk you through the rest, but grab these first:
 
-You do NOT need to install anything else manually. Claude will handle the rest.
+1. **VS Code** -- https://code.visualstudio.com/download -- click Mac Universal, drag to Applications
+2. **Node.js** -- https://nodejs.org -- click the green LTS button, run the installer
+3. **GitHub account** -- https://github.com/signup -- email, password, set up 2FA when it asks
+4. **Claude subscription** -- make sure your claude.ai account has a paid plan. Claude Code uses the same login.
+
+That's it. Claude handles everything else.
+
+---
 
 ## How to start
 
-**Option A -- Claude Desktop walks you through everything (recommended):**
+Open Claude Desktop. New conversation. Paste this entire block:
 
-Open Claude Desktop on your Mac. Start a new conversation. Paste this entire block:
-
----
-
+```
 I'm setting up an executive dashboard my son Tom built for me. I need to install some developer tools on my Mac before I can use it. Walk me through these installs one at a time, checking if each is already installed first:
 
 1. VS Code (code editor) -- download from code.visualstudio.com. If my Mac blocks it, right-click the app > Open > Open again.
@@ -55,45 +53,37 @@ I'm setting up an executive dashboard my son Tom built for me. I need to install
 After all 7 are done, tell me to open VS Code, open the terminal with Cmd+backtick, type `claude`, and say `run /wizard`.
 
 If anything fails, help me troubleshoot. If we get stuck, tell me to text my son Tom.
+```
+
+Follow what Claude says. If your Mac asks for your password, type it (characters won't show, that's normal) and hit Enter.
+
+If you'd rather do this over FaceTime, call me.
 
 ---
 
-Claude will walk you through each step one at a time. Follow what it says. If your Mac asks for your password at any point, that's normal -- type it (the characters won't show, that's also normal) and press Enter.
+## Once you're in
 
-**Option B -- I can walk you through it over FaceTime if you'd rather.**
+Open VS Code. Press **Cmd + backtick** (key above Tab). Type `claude`, hit Enter. Say `run /wizard`.
 
-## Once the tools are installed
+It'll ask you about your metrics, your team, your commitments to David, your risks. About an hour, pausable.
 
-Open VS Code (the blue icon). You should see your project already open. Press **Cmd + backtick** (the key above Tab, left of the 1 key) to open the terminal. Type `claude` and press Enter. Then say:
+## After that
 
-```
-run /wizard
-```
-
-The wizard asks you questions about your business -- what metrics matter, who your directs are, what you've committed to David and the board, what's on your risk radar. It takes about an hour but you can pause anytime. When it's done, your dashboard is live with your real data.
-
-## After setup
-
-Talk to Claude in plain English. Examples:
+Just talk to it:
 
 - "Update attach rate to 48.5"
 - "Add a priority: finalize Q2 forecast with Joe"
 - "Log a check-in with Sylvia -- hiring plan on track"
-- "Monday planning" (weekly routine, ~15 min)
+- "Monday planning"
 - "Prep for 1:1 with Alen"
 - "What's on fire?"
-- "Review inbox" (if your team is sending you updates)
 
-## If something breaks
+## If it breaks
 
-Text me. I have tools that can push a fix straight to your dashboard without touching your computer.
+Text me. I can push a fix from my end without touching your machine.
 
-## The big picture
+## One more thing
 
-This is yours. Your data, your hosting, your accounts. I can help maintain it, but you own and control everything. You can put it on a second monitor in your office and leave it there all day -- it auto-refreshes, recovers from network drops, and shows a warning if data goes stale.
-
-When you're ready, we can also set it up so your directs can send you updates directly from their phones. One tap, 30-second form, lands in your dashboard inbox for review. But that's a later conversation.
-
-Love you. Call me if you want to do this together over FaceTime instead.
+You can put this on a second monitor and leave it running all day. It auto-refreshes, handles network drops, and flags when data goes stale. Later we can set it up so your directs submit updates from their phones. But that's a separate conversation.
 
 Tom
